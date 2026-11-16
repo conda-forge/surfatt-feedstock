@@ -1,8 +1,8 @@
 schema_version: 1
 
 context:
-  version: "2.1.1"
-  build_number: 4
+  version: "2.1.2"
+  build_number: 0
   mpi_prefix: ${{ "mpi_" + mpi }}
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://github.com/TomoATT/SurfATT/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 2ca5d636fba0054e18ba9bde9bc403bf97551590870766e7880173cb96497ade
+  sha256: 9fec90ad658b5f09aec39d22f476bfbe9919b3184ceb5b815760862fb574f04e
 
 build:
   number: ${{ build_number }}
